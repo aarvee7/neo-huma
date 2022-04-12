@@ -1,0 +1,27 @@
+.table {
+    max-height: 200px;
+    height: 200px;
+    thead {
+        tr {
+            color: black;
+            font-weight: bolder;
+           
+        }
+    }
+}
+
+.table-fixed {
+    tbody{
+        height:180px;
+        overflow:auto;
+        width: 100%;       
+    }
+
+    thead, tbody, tr{
+        display: block;
+    }
+    td {
+        height: 10px;
+    }
+    
+  }
