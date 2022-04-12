@@ -8,7 +8,7 @@ app.use(express.static(__dirname+ "./dist/neohuma"));
 
 
 app.get('/*', function(req, res) {
-    res.sendFile('index.html', {root: 'dist/neohuma/'}
+    res.sendFile(path.join(__dirname + "/dist/neohuma/index.html")
   );
   });
 
